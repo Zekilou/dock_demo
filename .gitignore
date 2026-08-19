@@ -1,0 +1,25 @@
+# Swift Package Manager 构建产物
+.build/
+.swiftpm/
+Package.resolved
+
+# 打包产物
+dist/
+*.app
+*.dmg
+*.zip
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xcworkspace/contents.xcworkspacedata
+
+# macOS
+.DS_Store
+*.swp
+
+# 签名 / 钥匙串
+.keys/
+
+# 日志
+*.log
